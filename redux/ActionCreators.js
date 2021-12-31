@@ -189,7 +189,7 @@ export const addComment = (comment) => ({
 export const postFavorite = (campsiteId) => (dispatch) => {
   setTimeout(() => {
     dispatch(addFavorite(campsiteId));
-  }, 1000);
+  }, 500);
 };
 
 export const addFavorite = (campsiteId) => ({
